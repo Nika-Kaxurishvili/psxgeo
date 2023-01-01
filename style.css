@@ -1,0 +1,71 @@
+.div1{
+    width: auto;
+    height: 100px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #2196f3, #f44336);
+}
+.txt1{
+    margin-top: -70px;
+    margin-left: 70px;
+    color: black;
+}
+.div2{
+    margin-left: 400px;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    width: 90px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: -50px;
+}
+.div3{
+    margin-left: 600px;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    width: 90px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: -50px;
+}
+.txt2{
+    margin-top: 50px;
+}
+.txt3{
+    width: 190px;
+}
+.ft1{
+    width: 300px;
+    height: 150px;
+    border-radius: 30px;
+    transition: 0.7s;
+}
+.ft1:hover{
+    width: 350px;
+    height: 200px;
+}
+@media (max-width: 450px) {
+    .div1{
+        height: 200px;
+    }
+    .txt1{
+        margin-top: -160px;
+        margin-left: 95px;
+    }
+    .div2{
+        margin-left: 95px;
+        margin: 30px;
+    }
+    .txt2{
+        margin-top: 200px;
+    }
+    .div3{
+        margin-left: 130px;
+        margin-top: -60px;
+    }
+}
+.txt{
+    width: 400px;
+    height: 400px;
+    margin-top: 25%;
+}
+.ga{
+    color: black;
+}
