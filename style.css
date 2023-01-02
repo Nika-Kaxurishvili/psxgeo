@@ -64,8 +64,28 @@
 .txt{
     width: 400px;
     height: 400px;
-    margin-top: 25%;
+    margin-top: 60px;
 }
 .ga{
     color: black;
+}
+.txtidk{
+    margin-top: -370px;
+}
+.ft3{
+    margin-top: 60px;
+}
+.txtid{
+    width: 800px;
+}
+@media (max-width: 450px) {
+    .txt{
+        width: 270px;
+    }
+    .txtidk{
+        margin-top: -355px;
+    }
+    .txtid{
+        width: auto;
+    }
 }
